@@ -1,0 +1,210 @@
+@media (max-width: 450px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 20vh;
+  }
+  .linked {
+    margin: 20px 1px;
+    margin-right: -50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .linked li {
+    margin: 5px;
+  }
+  .linked2 {
+    margin: -10px 5px;
+    font-size: 60px;
+    padding-left: 30px;
+    line-height: 4px;
+  }
+  .linked2 li {
+    font-size: 10px;
+  }
+
+  .links {
+    padding: 2px;
+    font-size: 8px;
+  }
+
+  .links:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+
+  nav p {
+    padding: 0 0px;
+    margin: 24px 2px 2px 50px;
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .formpage {
+    float: right;
+    list-style: none;
+    margin: 2px;
+    margin-top: -15px;
+    padding-right: -50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .formpage button {
+    font-size: 10px;
+    width: 80px;
+    padding: 5px;
+  }
+  .formpage li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  #b4post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -120px;
+    width: 400px;
+  }
+  .rightflow {
+    width: 250px;
+    padding: 0px 0px 0px 40px;
+  }
+  .subscribe-box {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 30px;
+    background-color: #ffffff;
+  }
+
+  .subscribe-box label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .subscribe-input {
+    display: flex;
+  }
+
+  .subscribe-input input[type="email"] {
+    flex: 1;
+    padding: 3px;
+    border-radius: 30px 0 0 30px;
+    border: 1px solid rgb(201, 201, 201);
+    margin-right: -1px;
+    width: 200px;
+    height: 20px;
+  }
+  .line {
+    width: 300px;
+  }
+
+  .subscribe-input button[type="submit"] {
+    border-radius: 20px;
+    padding: 2px;
+    margin-left: -30px;
+    font-size: 10px;
+    margin-top: -2px;
+  }
+
+  #posts {
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 3000px;
+    margin-left: -48px;
+  }
+  #post1,
+  #post2,
+  #post3,
+  #post4,
+  #post5,
+  #post6,
+  #post7,
+  #post8 {
+    padding-left: -50px;
+    width: 100px;
+    height: 800px;
+    margin-left: -20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  img {
+    width: 300px;
+    height: 190px;
+  }
+
+  #load-more-btn {
+    font-size: 10px; /* Increase font size */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 100px;
+    margin-bottom: 0px;
+  }
+  #load-more {
+    position: absolute;
+    bottom: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 40vh;
+  }
+  #b4post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -250px;
+    width: 400px;
+  }
+}
+@media (max-width: 850px) {
+  .posts {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 0px 0px;
+    margin: 1px;
+  }
+  #post1,
+  #post2,
+  #post3,
+  #post4,
+  #post5,
+  #post6,
+  #post7,
+  #post8 {
+    width: 300px;
+    height: 40vh;
+    margin: 0px;
+  }
+
+  img {
+    width: 250px;
+    height: 120px;
+  }
+  #container {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+  }
+  button {
+    border-radius: 20px;
+    margin-left: 5px;
+    width: 150px;
+    margin-top: 40px;
+  }
+  #load-more-btn {
+    padding: 1px 20px; /* Add some padding */
+    font-size: 12px; /* Increase font size */
+    cursor: pointer; /* Change cursor on hover */
+  }
+}
